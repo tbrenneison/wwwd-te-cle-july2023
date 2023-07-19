@@ -1,0 +1,71 @@
+body { 
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('pattern-koi.png');
+    background-size: 500px;
+    background-repeat: repeat;
+}
+
+.thumbnail-img { 
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 50%; 
+    display: block;
+    margin: auto;
+    border: 5px solid orangered;
+}
+
+.bigcard { 
+    display: block; 
+    margin: auto;
+    width: 50%; 
+    border-radius: 20px; 
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.card { 
+    margin: auto;
+    width: 50%; 
+    border-radius: 20px; 
+    background-color: orangered;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+h1 { 
+    font-family: 'Freehand', cursive;
+    font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 5px 5px 5px lightblue;
+}
+ 
+p { 
+    font-weight: bold;
+}
+
+p.smalltext { 
+    font-size: 10px; 
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited { 
+    color: white;
+}
+
+a:active, a:hover { 
+    color: lightblue;
+    text-decoration:underline;
+}
+
+a.credit { 
+    color: darkblue;
+}
